@@ -54,7 +54,7 @@ body {
 }
 
 body {
-  background: hsl(0, 0%, 8%);
+  background: #E7ECEF;
   color: #FFFFFF;
   font-family: 'Inter', sans-serif;
   display: flex;
@@ -63,13 +63,19 @@ body {
 }
 
 main {
-  background: hsl(0, 0%, 12%);
+  background: #274C77;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 400px;
   padding: 3rem;
   border-radius: 1rem;
+  text-align: center;
+  transition: all 0.3s;
+
+  @media (max-width: 350px) {
+    padding: 1.5rem;
+  }
 }
 
 img {
@@ -85,7 +91,7 @@ h1{
 
 h2 {
   font-weight: 700;
-  color: hsl(75, 94%, 57%);
+  color: #6096BA;
   font-size: 1rem;
 }
 
@@ -103,16 +109,24 @@ ul {
 }
 
 li {
-  background-color: hsl(0, 0%, 20%);
-  font-weight: 700;
-  text-align: center;
-  padding: 1rem 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #6096BA;
+  width: 100%;
+  padding: 1rem 0.5rem;
   border-radius: 0.5rem;
+  text-align: center;
+  font-weight: 700;
   transition: all 0.3s;
 }
 
-li:hover {
-  background: hsl(75, 94%, 57%);
-  color: hsl(0, 0%, 8%);
+a:hover {
+  background: #A3CEF1;
+  /* color: hsl(0, 0%, 8%); */
+  color: #274C77;
   cursor: pointer;
 }
