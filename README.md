@@ -1,3 +1,3 @@
 # Frontend Mentor - Social links profile
 
-http://127.0.0.1:5500/social-links-profile-main/
+https://qluback.github.io/frontend-mentor-social-links/
